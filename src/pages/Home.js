@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
+import { Link } from "react-router-dom";
+
 
 // images
 import tick from "../assets/img/tick.png";
@@ -21,7 +23,7 @@ class Home extends Component {
                 <h3>Sign In</h3>
                 <div className="p1-wrap">
                   <p>New user?</p>
-                  <a href="#">Create an account</a>
+                  <Link to="/">Create an account</Link>>
                 </div>
                 <form autcomplete="false" method="post" action="#">
                   <label for="inpt2" className="input-wrap">
