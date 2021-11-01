@@ -3,7 +3,6 @@ import { connect } from "react-redux";
 
 // images
 import tick from "../assets/img/tick.png";
-import folder from "../assets/img/folder.png";
 
 class Home extends Component {
   constructor(props) {
