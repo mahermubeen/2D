@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -67,7 +67,229 @@ a {
   text-transform: capitalize;
 }
 
-.sign-in .mint-popup-wrap {
+.home .main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent linear-gradient(127deg, #34297c 0%, #c4e8eb 100%) 0% 0% no-repeat padding-box;
+  height: 100vh;
+}
+.home .main-wrapper .signIn-content {
+  display: flex;
+}
+.home .main-wrapper .signIn-content .left-div {
+  border-right: 2px dashed #6b6b6b;
+  padding-right: 50px;
+  margin-right: 50px;
+  display: flex;
+}
+.home .main-wrapper .signIn-content .left-div .left-main {
+  width: 333px;
+  background: #ffffffb3;
+  border: 1px solid #bce0fd;
+  padding: 20px 27px;
+}
+.home .main-wrapper .signIn-content .left-div .left-main h3 {
+  color: #1c2126;
+  font-size: 35px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.home .main-wrapper .signIn-content .left-div .left-main .p1-wrap {
+  margin-bottom: 32px;
+  display: flex;
+  gap: 8px;
+}
+.home .main-wrapper .signIn-content .left-div .left-main .p1-wrap p {
+  font-size: 18px;
+  color: #1c2126;
+  font-weight: bold;
+}
+.home .main-wrapper .signIn-content .left-div .left-main .p1-wrap span {
+  font-size: 16px;
+  color: #1c2126;
+}
+.home .main-wrapper .signIn-content .left-div .left-main form {
+  display: grid;
+}
+.home .main-wrapper .signIn-content .left-div .left-main form .input-wrap {
+  background: #f2f4f8;
+  border-radius: 16px;
+  padding: 15px 16px;
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.home .main-wrapper .signIn-content .left-div .left-main form .input-wrap:hover {
+  cursor: text;
+}
+.home .main-wrapper .signIn-content .left-div .left-main form .input-wrap .email-input,
+.home .main-wrapper .signIn-content .left-div .left-main form .input-wrap .pass-input {
+  color: #1c2126;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+.home .main-wrapper .signIn-content .left-div .left-main form .input-wrap .email-input,
+.home .main-wrapper .signIn-content .left-div .left-main form .input-wrap .pass-input {
+  color: #1c2126;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  width: 100%;
+  background-color: transparent;
+}
+.home .main-wrapper .signIn-content .left-div .left-main form .input-wrap img {
+  width: 20px;
+}
+.home .main-wrapper .signIn-content .left-div .left-main form .pass-wrap {
+  margin-bottom: 24px;
+}
+.home .main-wrapper .signIn-content .left-div .left-main form .checkbox-wrap {
+  margin-bottom: 24px;
+}
+.home .main-wrapper .signIn-content .left-div .left-main form .checkbox-wrap .styled-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+.home .main-wrapper .signIn-content .left-div .left-main form .checkbox-wrap .styled-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  color: #1c2126;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.home .main-wrapper .signIn-content .left-div .left-main form .checkbox-wrap .styled-checkbox + label:before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 27px;
+  height: 27px;
+  border-radius: 8px;
+  background: transparent;
+  border: 1px solid #382e7f;
+  outline: none;
+}
+.home .main-wrapper .signIn-content .left-div .left-main form .checkbox-wrap .styled-checkbox:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+.home .main-wrapper .signIn-content .left-div .left-main form .checkbox-wrap .styled-checkbox:checked + label:before {
+  background: #382e7f;
+}
+.home .main-wrapper .signIn-content .left-div .left-main form .checkbox-wrap .styled-checkbox:disabled + label {
+  color: #b8b8b8;
+  cursor: auto;
+}
+.home .main-wrapper .signIn-content .left-div .left-main form .checkbox-wrap .styled-checkbox:disabled + label:before {
+  box-shadow: none;
+  background: #ddd;
+}
+.home .main-wrapper .signIn-content .left-div .left-main form .checkbox-wrap .styled-checkbox:checked + label:after {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 13px;
+  background: white;
+  width: 2px;
+  height: 2px;
+  box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+  transform: rotate(45deg);
+}
+.home .main-wrapper .signIn-content .left-div .left-main form .login-btn {
+  background: #382e7f;
+  border-radius: 100px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.home .main-wrapper .signIn-content .right-div {
+  width: 333px;
+  display: grid;
+  gap: 10px;
+}
+.home .main-wrapper .signIn-content .right-div .disable {
+  opacity: 0.8;
+}
+.home .main-wrapper .signIn-content .right-div .disable figure svg path {
+  fill: #999cc1 !important;
+}
+.home .main-wrapper .signIn-content .right-div .disable button {
+  background-color: #717171;
+  opacity: 0.4;
+}
+.home .main-wrapper .signIn-content .right-div .row1 {
+  padding: 24px;
+  background: #ffffffb3;
+  border: 1px solid #bce0fd;
+}
+.home .main-wrapper .signIn-content .right-div .row1 figure {
+  display: flex;
+  justify-content: center;
+}
+.home .main-wrapper .signIn-content .right-div .row1 figure svg {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.home .main-wrapper .signIn-content .right-div .row1 figure svg path {
+  fill: #382e7f;
+}
+.home .main-wrapper .signIn-content .right-div .row1 button {
+  background: #382e7f 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  width: 100%;
+  padding: 13px;
+}
+.home .main-wrapper .signIn-content .right-div .row2 {
+  padding: 24px;
+  background: #ffffffb3;
+  border: 1px solid #bce0fd;
+}
+.home .main-wrapper .signIn-content .right-div .row2 button {
+  background: #382e7f 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  width: 100%;
+  padding: 13px;
+}
+.home .main-wrapper .signIn-content .right-div .row3 {
+  padding: 24px;
+  background: #ffffffb3;
+  border: 1px solid #bce0fd;
+  display: grid;
+  gap: 16px;
+}
+.home .main-wrapper .signIn-content .right-div .row3 button {
+  background: #382e7f 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  width: 100%;
+  padding: 13px;
+}
+.home .mint-popup-wrap {
   position: fixed;
   top: 0;
   left: 0;
@@ -79,13 +301,13 @@ a {
   z-index: 5;
   background: #00000094;
 }
-.sign-in .mint-popup-wrap .content {
+.home .mint-popup-wrap .content {
   position: relative;
   width: 755px;
   height: 600px;
   border-radius: 40px;
 }
-.sign-in .mint-popup-wrap .content .cross-img {
+.home .mint-popup-wrap .content .cross-img {
   position: absolute;
   top: 20px;
   right: 25px;
