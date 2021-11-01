@@ -23,7 +23,7 @@ class Home extends Component {
                 <h3>Sign In</h3>
                 <div className="p1-wrap">
                   <p>New user?</p>
-                  <Link to="/">Create an account</Link>>
+                  <Link to="/">Create an account</Link>
                 </div>
                 <form autcomplete="false" method="post" action="#">
                   <label for="inpt2" className="input-wrap">
