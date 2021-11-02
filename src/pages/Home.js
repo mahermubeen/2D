@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 
-
 // images
 import tick from "../assets/img/tick.png";
+import logo from "../assets/img/logo-s.png";
 
 class Home extends Component {
   constructor(props) {
@@ -16,6 +16,16 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
+        {/* <div className="header">
+          <Link to="/" className="logo">
+            <img alt="asdf" src={logo} />
+          </Link>
+          <div className="nav">
+            <Link to="/" className="active">Home</Link>
+            <Link to="/">Projects</Link>
+            <Link to="/">Examples</Link>
+          </div>
+        </div> */}
         <div className="main-wrapper">
           <div className="signIn-content">
             <div className="left-div">

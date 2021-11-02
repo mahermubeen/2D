@@ -71,12 +71,37 @@ a {
   text-transform: capitalize;
 }
 
+.home .header {
+  background-color: white;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding: 0 24px;
+}
+.home .header .logo {
+  padding: 9px 0;
+}
+.home .header .nav {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.home .header .nav a {
+  font-size: 14px;
+  padding: 18px 10px;
+  border-bottom: 2px solid white;
+  color: #74747480;
+}
+.home .header .nav .active {
+  border-bottom: 2px solid #323232;
+  color: #323232;
+}
 .home .main-wrapper {
   background: transparent linear-gradient(127deg, #34297c 0%, #c4e8eb 100%) 0% 0% no-repeat padding-box;
   display: grid;
   height: 100vh;
   grid-template-rows: max-content max-content;
-  align-content: space-around;
+  align-content: center;
   justify-content: center;
   gap: 40px;
 }
@@ -114,7 +139,7 @@ a {
 }
 .home .main-wrapper .signIn-content .left-div .left-main .p1-wrap a {
   font-size: 16px;
-  color: #382E7F;
+  color: #382e7f;
   font-weight: normal;
 }
 .home .main-wrapper .signIn-content .left-div .left-main form {
@@ -142,7 +167,7 @@ a {
 }
 .home .main-wrapper .signIn-content .left-div .left-main form .input-wrap .email-input::placeholder,
 .home .main-wrapper .signIn-content .left-div .left-main form .input-wrap .pass-input::placeholder {
-  color: #1C2126;
+  color: #1c2126;
 }
 .home .main-wrapper .signIn-content .left-div .left-main form .input-wrap img {
   width: 20px;
@@ -293,6 +318,10 @@ a {
   font-size: 13px;
   width: 100%;
   padding: 13px;
+}
+.home .main-wrapper .footer {
+  position: relative;
+  bottom: -40px;
 }
 .home .main-wrapper .footer .p1 {
   font-size: 13px;
