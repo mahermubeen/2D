@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 // images
 import tick from "../assets/img/tick.png";
-import logo from "../assets/img/logo-s.png";
+// import logo from "../assets/img/logo-s.png";
 
 class Home extends Component {
   constructor(props) {
