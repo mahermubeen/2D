@@ -133,15 +133,12 @@ a {
   font-size: 16px;
   outline: none;
   border: none;
-}
-.home .main-wrapper .signIn-content .left-div .left-main form .input-wrap .email-input,
-.home .main-wrapper .signIn-content .left-div .left-main form .input-wrap .pass-input {
-  color: #1c2126;
-  font-size: 16px;
-  outline: none;
-  border: none;
   width: 100%;
   background-color: transparent;
+}
+.home .main-wrapper .signIn-content .left-div .left-main form .input-wrap .email-input::placeholder,
+.home .main-wrapper .signIn-content .left-div .left-main form .input-wrap .pass-input::placeholder {
+  color: #1C2126;
 }
 .home .main-wrapper .signIn-content .left-div .left-main form .input-wrap img {
   width: 20px;
