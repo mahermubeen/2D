@@ -255,7 +255,7 @@ a {
   opacity: 0.4;
 }
 .home .main-wrapper .signIn-content .right-div .row1 {
-  padding: 24px;
+  padding: 20px 24px;
   background: #ffffffb3;
   border: 1px solid #bce0fd;
 }
@@ -284,7 +284,7 @@ a {
   padding: 13px;
 }
 .home .main-wrapper .signIn-content .right-div .row2 {
-  padding: 24px;
+  padding: 20px 24px;
   background: #ffffffb3;
   border: 1px solid #bce0fd;
 }
@@ -301,7 +301,7 @@ a {
   padding: 13px;
 }
 .home .main-wrapper .signIn-content .right-div .row3 {
-  padding: 24px;
+  padding: 20px 24px;
   background: #ffffffb3;
   border: 1px solid #bce0fd;
   display: grid;
