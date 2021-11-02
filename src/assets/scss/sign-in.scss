@@ -1,13 +1,16 @@
 .home {
   .main-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: transparent linear-gradient(127deg, #34297c 0%, #c4e8eb 100%) 0%
       0% no-repeat padding-box;
+    display: grid;
     height: 100vh;
+    grid-template-rows: max-content max-content;
+    align-content: space-around;
+    justify-content: center;
+    gap: 40px;
     .signIn-content {
       display: flex;
+      // margin-bottom: 224px;
 
       .left-div {
         border-right: 2px dashed #6b6b6b;
@@ -29,14 +32,16 @@
             margin-bottom: 32px;
             display: flex;
             gap: 8px;
+            align-items: center;
             p {
               font-size: 18px;
               color: #1c2126;
               font-weight: bold;
             }
-            span {
+            a {
               font-size: 16px;
-              color: #1c2126;
+              color: #382E7F;
+              font-weight: normal;
             }
           }
           form {
@@ -243,6 +248,23 @@
             padding: 13px;
           }
         }
+      }
+    }
+
+    .footer {
+      .p1 {
+        font-size: 13px;
+        text-align: center;
+        color: #3d3d3d;
+        margin-bottom: 18px;
+        font-weight: bold;
+      }
+      .p2 {
+        font-size: 13px;
+        text-align: center;
+        color: #3d3d3d;
+        font-weight: bold;
+
       }
     }
   }

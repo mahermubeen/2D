@@ -68,11 +68,13 @@ a {
 }
 
 .home .main-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: transparent linear-gradient(127deg, #34297c 0%, #c4e8eb 100%) 0% 0% no-repeat padding-box;
+  display: grid;
   height: 100vh;
+  grid-template-rows: max-content max-content;
+  align-content: space-around;
+  justify-content: center;
+  gap: 40px;
 }
 .home .main-wrapper .signIn-content {
   display: flex;
@@ -99,15 +101,17 @@ a {
   margin-bottom: 32px;
   display: flex;
   gap: 8px;
+  align-items: center;
 }
 .home .main-wrapper .signIn-content .left-div .left-main .p1-wrap p {
   font-size: 18px;
   color: #1c2126;
   font-weight: bold;
 }
-.home .main-wrapper .signIn-content .left-div .left-main .p1-wrap span {
+.home .main-wrapper .signIn-content .left-div .left-main .p1-wrap a {
   font-size: 16px;
-  color: #1c2126;
+  color: #382E7F;
+  font-weight: normal;
 }
 .home .main-wrapper .signIn-content .left-div .left-main form {
   display: grid;
@@ -288,6 +292,19 @@ a {
   font-size: 13px;
   width: 100%;
   padding: 13px;
+}
+.home .main-wrapper .footer .p1 {
+  font-size: 13px;
+  text-align: center;
+  color: #3d3d3d;
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+.home .main-wrapper .footer .p2 {
+  font-size: 13px;
+  text-align: center;
+  color: #3d3d3d;
+  font-weight: bold;
 }
 .home .mint-popup-wrap {
   position: fixed;

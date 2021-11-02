@@ -99,6 +99,11 @@ class Home extends Component {
               </div>
             </div>
           </div>
+
+          <div className="footer">
+            <p className="p1">contact@todwell.com</p>
+            <p className="p2">Copyright © 2021 ToDwell. All rights reserved.</p>
+          </div>
         </div>
       </div>
     );
